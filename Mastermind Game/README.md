@@ -1,4 +1,6 @@
-# Mastermind Game Guide:
+# Implementation of the famous game called Matermind
+
+## Mastermind Game Guide: 
 
 Mastermind works by having one player, the code maker, create a 4-digit code from 8 available digits ('0' '1' '2' '3' '4' '5' '6' '7') through -c command. 
 
@@ -17,6 +19,12 @@ Such input errors are not added to the attempts count.
 
 If the player finds the code in the available number of turns, they win, and the game stops. 
 Otherwise, the player loses, and the code maker wins.
+
+### Program also receives the following parameters: 
+
+-c [CODE]: specifies the secret code. If no code is specified, a random code will be generated. 
+
+-t [ATTEMPTS]: specifies the number of attempts; by default, the playerhas 10 attempts.
 
 * Example:
 
