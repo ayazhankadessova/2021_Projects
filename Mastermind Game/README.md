@@ -1,6 +1,6 @@
-# Implementation of the famous game called Matermind
+## Implementation of the famous game called Mastermind
 
-## Mastermind Game Guide: 
+### Mastermind Game Guide: 
 
 Mastermind works by having one player, the code maker, create a 4-digit code from 8 available digits ('0' '1' '2' '3' '4' '5' '6' '7') through -c command. 
 
